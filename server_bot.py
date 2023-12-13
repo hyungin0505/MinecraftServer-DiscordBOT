@@ -227,7 +227,7 @@ async def 문의(ctx):
                          color=0xC8D7FF)
     embed.add_field(name="> 오류 문의", value="고간디(kogandhi05)", inline="false")
     embed.add_field(name="> 이메일", value="hyungin0505@naver.com")
-    embed.add_field(name="> 소스 코드", value="")
+    embed.add_field(name="> 소스 코드", value="https://github.com/hyungin0505/MinecraftServer-DiscordBOT")
     await ctx.channel.send(embed=embed)
 
 # 출석 체크
